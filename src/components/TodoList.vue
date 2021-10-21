@@ -6,7 +6,7 @@
     <ul>
       <li v-for="(item, index) in list" :key="index">
         <input type="checkbox" v-model="item.checked">
-        {{item.text}}
+        <span :class="getItemClass(item.checked)">{{item.text}}</span>
       </li>
     </ul>
   </div>
@@ -27,6 +27,9 @@ export default {
       this.list = listOnMemory;
   },
   methods: {
+    getItemClass(check){
+      return check ? 'item-checked' : '';
+    },
     addItemToList(event){
       const newItem = event.target.value;
       this.list.push({text: newItem, checked: false});
@@ -42,5 +45,8 @@ export default {
   ul{
     list-style: none;
     padding: 0;
+  }
+  .item-checked{
+    text-decoration: line-through;
   }
 </style>

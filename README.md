@@ -38,3 +38,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 -   Added new element to the list with **_v-on:keyup:enter_**.
 -   Implemented access to the **_local storage_** to keep the data.
+-   Added style to show a line through the completed item.
