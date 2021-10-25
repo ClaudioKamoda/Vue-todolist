@@ -46,3 +46,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 -   Added simple style to the project.
 -   Added the option to delete an item.
 -   Improved UX by marking an item by clicking on it's name.
+
+#### October 25, 2021:
+
+-   Created new component called **_ListItem.vue_**.
+-   Refactored the code to contain the correct properties.
