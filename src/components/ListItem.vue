@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<li>
 		<span class="list-item-check">
 			<input
 				type="checkbox"
@@ -12,7 +12,7 @@
 			}}</label>
 		</span>
 		<span v-html="deleteIcon" @click="deleteItem(index)"></span>
-	</div>
+	</li>
 </template>
 
 <script>
@@ -40,4 +40,20 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+li {
+	width: 100%;
+}
+li,
+.list-item-check {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.item-checkbox {
+	margin-right: 10px;
+}
+.item-checked {
+	text-decoration: line-through;
+}
+</style>

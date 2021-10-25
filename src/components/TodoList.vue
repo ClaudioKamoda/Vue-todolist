@@ -8,13 +8,13 @@
 		/>
 
 		<ul>
-			<li v-for="(item, index) in list" :key="index">
-				<ListItem
-					:item="item"
-					:index="index"
-					@delete-item="deleteItem()"
-				/>
-			</li>
+			<ListItem
+				v-for="(item, index) in list"
+				:key="index"
+				:item="item"
+				:index="index"
+				@delete-item="deleteItem()"
+			/>
 		</ul>
 	</div>
 </template>
@@ -76,17 +76,5 @@ ul {
 	width: 80%;
 	margin: 10px auto;
 	text-align: left;
-}
-li,
-.list-item-check {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-.item-checkbox {
-	margin-right: 10px;
-}
-.item-checked {
-	text-decoration: line-through;
 }
 </style>
