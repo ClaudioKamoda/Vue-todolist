@@ -39,3 +39,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 -   Added new element to the list with **_v-on:keyup:enter_**.
 -   Implemented access to the **_local storage_** to keep the data.
 -   Added style to show a line through the completed item.
+
+#### October 24, 2021:
+
+-   Installed **_feather icons_**.
+-   Added simple style to the project.
+-   Added the option to delete an item.
+-   Improved UX by marking an item by clicking on it's name.
