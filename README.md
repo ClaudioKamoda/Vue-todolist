@@ -51,4 +51,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 -   Created new component called **_ListItem.vue_**.
 -   Refactored the code to contain the correct properties.
--   Adjusted the css of th **_ListItem_** component.
+-   Adjusted the css of the **_ListItem_** component.
