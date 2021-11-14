@@ -45,7 +45,19 @@ export default {
 		},
 		addItemToList(event) {
 			const newItem = event.target.value
-			this.list.unshift({ text: newItem, checked: false })
+			const dateNow = new Date()
+			const formatedDate =
+				dateNow.getDate() +
+				'/' +
+				(Number(dateNow.getMonth()) + 1) +
+				'/' +
+				dateNow.getFullYear()
+
+			this.list.unshift({
+				text: newItem,
+				checked: false,
+				dateCreated: formatedDate
+			})
 			event.target.value = ''
 		},
 		deleteItem(index) {
