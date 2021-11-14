@@ -13,7 +13,7 @@
 				:key="index"
 				:item="item"
 				:index="index"
-				@delete-item="deleteItem()"
+				@delete-item="deleteItem(index)"
 			/>
 		</ul>
 	</div>
