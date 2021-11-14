@@ -57,3 +57,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 -   Added date of creation as a property of each item.
 -   Styled the text.
+-   Corrected delete bug.
