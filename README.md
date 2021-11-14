@@ -52,3 +52,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 -   Created new component called **_ListItem.vue_**.
 -   Refactored the code to contain the correct properties.
 -   Adjusted the css of the **_ListItem_** component.
+
+#### November 14, 2021:
+
+-   Added date of creation as a property of each item.
+-   Styled the text.
