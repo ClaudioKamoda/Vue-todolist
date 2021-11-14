@@ -2,6 +2,8 @@
 
 This project is dveloped using Vue.js, proposed by the web dev course I'm taking, **_FrontStart_** by @IsadoraStangarlin.
 
+![To Do List in action](https://github.com/ClaudioKamoda/Vue-todolist/blob/main/src/assets/example.gif)
+
 How to setup the prohect on your machine:
 
 ## Project setup
