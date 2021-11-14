@@ -7,9 +7,12 @@
 				class="item-checkbox"
 				v-model="item.checked"
 			/>
-			<label :for="index" :class="getItemClass(item.checked)">{{
-				item.text
-			}}</label>
+			<div class="content">
+				<label :for="index" :class="getItemClass(item.checked)">{{
+					item.text
+				}}</label>
+				<span class="date">Criado em: {{ item.dateCreated }}</span>
+			</div>
 		</span>
 		<span v-html="deleteIcon" @click="deleteItem(index)"></span>
 	</li>
@@ -43,6 +46,7 @@ export default {
 <style scoped>
 li {
 	width: 100%;
+	margin-bottom: 10px;
 }
 li,
 .list-item-check {
@@ -55,5 +59,13 @@ li,
 }
 .item-checked {
 	text-decoration: line-through;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.date {
+	font-size: 11px;
 }
 </style>

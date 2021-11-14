@@ -52,7 +52,6 @@ export default {
 				(Number(dateNow.getMonth()) + 1) +
 				'/' +
 				dateNow.getFullYear()
-
 			this.list.unshift({
 				text: newItem,
 				checked: false,
