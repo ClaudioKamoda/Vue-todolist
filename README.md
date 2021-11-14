@@ -2,6 +2,10 @@
 
 This project is dveloped using Vue.js, proposed by the web dev course I'm taking, **_FrontStart_** by @IsadoraStangarlin.
 
+This is a introduction project to Vue.js, using the basic functionalities like conditional **_classes_**, **_computed_**, **_props_**, :for, v-on and watch.
+The cool twists to this To-Do List is that it's data is saved on local storage, so every time you close and reopen the tasks you didn't complete yet will be there. Simulating a conection to a database.
+I also worked with javascript dates for the first time by adding a **_dateCreated_** field on each task.
+
 ![To Do List in action](https://github.com/ClaudioKamoda/Vue-todolist/blob/main/src/assets/example.gif)
 
 How to setup the prohect on your machine:
